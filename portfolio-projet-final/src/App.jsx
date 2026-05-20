@@ -11,7 +11,7 @@ function App() {
         <Hero />
         <Projects />
       </main>
-      <Footer />
+      <Footer name="Jean Aymar"/>
     </div>
   );
 }

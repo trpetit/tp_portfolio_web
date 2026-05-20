@@ -10,8 +10,7 @@ function Footer({name}) {
           alt="Icônes de réseaux sociaux" 
           className="mx-auto mt-4" 
         />      
-        <p className="text-brand-gray text-sm font-medium tracking-wide">
-          {name}  2026
+      <p className="text-portfolio-gray font-sans text-sm font-medium tracking-wide">          {name}  2026
           </p>
         </div>
     </footer>
