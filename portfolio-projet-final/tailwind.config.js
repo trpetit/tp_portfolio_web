@@ -17,6 +17,6 @@ export default {
     'sans': ['Raleway', 'system-ui', 'sans-serif'],
   },
 },
+},
   plugins: [],
 }
-
