@@ -3,15 +3,18 @@ import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 
+
+
 function App() {
+  const monNom = "Jean Aymar";
   return (
-    <div className="min-h-screen bg-brand-lightBg font-sans antialiased text-brand-dark">
-      <Header />
+<div className="min-h-screen bg-portfolio-lightBg font-sans antialiased text-portfolio-dark relative">
+        <Header name={monNom} />
       <main>
-        <Hero />
+        <Hero name={monNom}/>
         <Projects />
       </main>
-      <Footer name="Jean Aymar"/>
+      <Footer name={monNom}/>
     </div>
   );
 }
