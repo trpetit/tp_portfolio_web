@@ -1,9 +1,16 @@
-function Header() {
+function Header({ name }) {
   return (
-    <header className="bg-white border-b border-brand-muted/20 py-4">
-      <div className="container mx-auto px-4">
-        {}
-        <p className="text-brand-dark font-bold">[Composant Header]</p>
+    <header className="w-full font-sans text-portfolio-dark font-medium bg-portfolio-lightBg">
+      <div className="flex justify-between items-center py-6 px-6">
+        <a href="#">{name}</a>
+        <nav className="relative z-50 mr-40">
+          <ul className="flex items-center gap-8">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+
       </div>
     </header>
   );
