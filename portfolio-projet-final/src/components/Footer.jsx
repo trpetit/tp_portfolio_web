@@ -2,7 +2,7 @@ import footerIcons from '../assets/footer_icons.svg';
 
 function Footer({name}) {
   return (
-    <footer className="bg-white py-8 border-t border-brand-muted/20">
+    <footer className=" py-8 border-t border-brand-muted/20">
       <div className="container mx-auto px-4 text-center">
         {}
         <img 
