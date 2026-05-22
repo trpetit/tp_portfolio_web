@@ -10,8 +10,7 @@ function App() {
   const monNom = "Jean Aymar";
   return (
     <div className=" min-h-screen w-full bg-portfolio-lightBg text-portfolio-dark font-sans antialiased relative">
-<div className=" font-sans antialiased text-portfolio-dark relative">
-        <Header name={monNom} />
+      <Header name={monNom} />
       <main>
         <Hero name={monNom} />
         <Projects />
@@ -19,7 +18,7 @@ function App() {
       </main>
       <Footer name={monNom} />
     </div>
-    </div>
+
   );
 }
 

@@ -21,12 +21,12 @@ const projectsList = [
     <span className=" block  bg-portfolio-yellow rounded-xl p-[0.1em] w-[4em] mx-auto">
     
     </span>
-      {projectsList.map((projects, index) => (
+      {projectsList.map((project, index) => (
         <SingleProject
-          key={projects.id}
-          title={projects.title}
-          description={projects.description}
-          image={projects.image}
+          key={project.id}
+          title={project.title}
+          description={project.description}
+          image={project.image}
           index={index}
           className="my-8"
         />
